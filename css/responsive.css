@@ -1,0 +1,161 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+hr {
+    border: 2.5px solid #bcbbbb;
+}
+
+h3,
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+}
+
+img,
+.row,
+hr {
+    width: 100%;
+}
+
+a {
+    padding: 1.5em;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 30px;
+}
+
+.centralimage {
+    margin-bottom: 10px;
+}
+
+.bottompicture {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bottompicturelink {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.content,
+.centralpart,
+footer {
+    width: 100%;
+}
+
+.social a {
+    margin: 0 1em 0 0;
+}
+
+.social a:last-of-type {
+    margin: 0;
+}
+
+.social {
+    line-height: 2em;
+    text-align: center;
+}
+
+[class*="zocial-"]:before {
+    color: black;
+    display: inline-block;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+    color: #3d85c6;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 992px) {
+    .logo-image {
+        width: 20%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .logo-image {
+        width: 30%;
+        margin-left: 20px;
+    }
+
+    a {
+        font-size: x-small;
+        font-weight: 100;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    h3, h2 {
+        font-size: 30px;
+    }
+
+    .title-super {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

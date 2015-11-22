@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-2 logo-image">
+                    <picture>
+                        <img src="images/udacity-logo-200_small.jpg" srcset="images/udacity-logo-200_small.jpg 1x, images/udacity-logo-500_medium.jpg 2x" class="img-responsive" alt="Udacity Logo">
+                    </picture>
+                </div>
+                <div class="col-md-10 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Anita Patra</h1>
+                    <h4>Front End Developer</h4>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="content">
+                <section class="centralpart">
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="centralimage">
+                                <img src="images/centralimage-200_small.jpg" srcset="images/centralimage-1600_large_2x.jpg 1600w, images/centralimage-800_large_1x.jpg 800w" sizes="(min-width: 1200px) 1164px, (min-width: 992px) 964px, (min-width: 768px) 746px, 100vw" class="img-responsive" alt="Technology image">
+                            </div>
+                        </div>
+                    </div>
+                    <p>There is so much advancement in the field of technology in recent years and some of the examples of emerging technologies are Artificial intelligence, Nanotechnology, Robotics etc to name a few.</p>
+                </section>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </div>
+                </div>
+
+                <section class="bottompicture">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/natureimage-200_small.jpg" srcset="images/natureimage-1600_large_2x.jpg 1600w, images/natureimage-800_large_1x.jpg 800w" sizes="(min-width: 1200px) 368px, (min-width: 992px) 302px, (min-width: 768px) 746px, 100vw" class="img-responsive" alt="nature image" data-toggle="modal" data-target="#project1">
+                            <h3 class="text-uppercase">nature</h3>
+                            <div class="bottompicturelink">
+                                <a href="http://lorempixel.com/output/nature-q-c-640-480-4.jpg">http://lorempixel.com/output/nature-q-c-640-480-4.jpg</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="images/transportimage-200_small.jpg" srcset="images/transportimage-1600_large_2x.jpg 1600w, images/transportimage-800_large_1x.jpg 800w" sizes="(min-width: 1200px) 368px, (min-width: 992px) 302px, (min-width: 768px) 746px, 100vw" class="img-responsive" alt="transport image" data-toggle="modal" data-target="#project2">
+                            <h3 class="text-uppercase">transport</h3>
+                            <div class="bottompicturelink">
+                                <a href="http://lorempixel.com/output/transport-q-c-640-480-2.jpg">http://lorempixel.com/output/transport-q-c-640-480-2.jpg</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="images/technicsimage-200_small.jpg" srcset="images/technicsimage-1600_large_2x.jpg 1600w, images/technicsimage-800_large_1x.jpg 800w" sizes="(min-width: 1200px) 368px, (min-width: 992px) 302px, (min-width: 768px) 746px, 100vw" class="img-responsive" alt="technics image" data-toggle="modal" data-target="#project3">
+                            <h3 class="text-uppercase">technics</h3>
+                            <div class="bottompicturelink">
+                                <a href="http://lorempixel.com/output/technics-q-c-640-480-8.jpg">http://lorempixel.com/output/technics-q-c-640-480-8.jpg</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabelnature" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabelnature">nature image</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-4.jpg" alt="nature image"> A beautiful nature image.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabeltransport" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabeltransport">Transport image</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://lorempixel.com/output/transport-q-c-640-480-2.jpg" alt="transport image"> One of the many transport image.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabeltechnic" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabeltechnic">Technic image</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://lorempixel.com/output/technics-q-c-640-480-8.jpg" alt="technics image"> One of the many technic image.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="social">
+                <a href="https://twitter.com/home?status=https://github.com/udacity/responsive-images" class="zocial-twitter">Twitter</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/udacity/responsive-images" class="zocial-facebook">Facebook</a>
+                <a href="https://plus.google.com/share?url=https://github.com/udacity/responsive-images" class="zocial-googleplus">Google+</a>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
